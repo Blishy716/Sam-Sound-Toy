@@ -341,7 +341,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 3
-  Value: 0
+  Value: 1
 --- !u!114 &341254276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 4
-  Value: 6
+  Value: 0
 --- !u!1 &408390189
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +428,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 3
-  Value: 1
+  Value: 2
 --- !u!114 &408390193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,7 +444,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 4
-  Value: 6
+  Value: 0
 --- !u!1001 &617797439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 3
-  Value: 4
+  Value: 5
 --- !u!114 &891943563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -671,7 +671,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 4
-  Value: 6
+  Value: 0
 --- !u!1 &915039978
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,7 +889,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 3
-  Value: 3
+  Value: 4
 --- !u!114 &1135105112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -905,7 +905,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 4
-  Value: 6
+  Value: 0
 --- !u!1 &1248578231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 3
-  Value: 5
+  Value: 6
 --- !u!114 &1257628061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 4
-  Value: 6
+  Value: 0
 --- !u!1 &1284172765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,7 +1758,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 3
-  Value: 2
+  Value: 3
 --- !u!114 &2110477608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1774,7 +1774,7 @@ MonoBehaviour:
   CollisionTag: Ground
   Parameter: DiceRoll
   TriggerEvent: 4
-  Value: 6
+  Value: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

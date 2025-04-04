@@ -19,13 +19,13 @@
 			<value>7</value>
 		</property>
 		<property name="enumerationLabels">
+			<value>Idle</value>
 			<value>Side1</value>
 			<value>Side2</value>
 			<value>Side3</value>
 			<value>Side4</value>
 			<value>Side5</value>
 			<value>Side6</value>
-			<value>Idle</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>

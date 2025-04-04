@@ -23,13 +23,13 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 1
   Labels:
+  - Idle
   - Side1
   - Side2
   - Side3
   - Side4
   - Side5
   - Side6
-  - Idle
   Exists: 1
 --- !u!114 &-6441907191099926417
 MonoBehaviour:
@@ -81,13 +81,13 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 1
   Labels:
+  - Idle
   - Side1
   - Side2
   - Side3
   - Side4
   - Side5
   - Side6
-  - Idle
   Exists: 1
 --- !u!114 &-2916989544205591356
 MonoBehaviour:
@@ -166,7 +166,7 @@ MonoBehaviour:
   - {fileID: 8185279201476922180}
   StringsBanks:
   - {fileID: 5535500205473153163}
-  cacheTime: 638793768296678624
+  cacheTime: 638793844892684024
   cacheVersion: 131623
 --- !u!114 &1616518315559906917
 MonoBehaviour:
@@ -191,13 +191,13 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 1
   Labels:
+  - Idle
   - Side1
   - Side2
   - Side3
   - Side4
   - Side5
   - Side6
-  - Idle
   Exists: 1
 --- !u!114 &2349770909195046970
 MonoBehaviour:
@@ -269,7 +269,7 @@ MonoBehaviour:
   Path: FMOD/Roll Music/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638793768295787086
+  lastModified: 638793844891911042
   FileSizes:
   - Name: Desktop
     Value: 1182
@@ -317,10 +317,10 @@ MonoBehaviour:
   Path: FMOD/Roll Music/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638793768296678624
+  lastModified: 638793844892684024
   FileSizes:
   - Name: Desktop
-    Value: 757984
+    Value: 758080
   Exists: 1
 --- !u!114 &8185279201476922180
 MonoBehaviour:
@@ -337,7 +337,7 @@ MonoBehaviour:
   Path: FMOD/Roll Music/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638793768295731151
+  lastModified: 638793844891850529
   FileSizes:
   - Name: Desktop
     Value: 1282
