@@ -16,7 +16,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>6</value>
+			<value>7</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Side1</value>
@@ -25,6 +25,7 @@
 			<value>Side4</value>
 			<value>Side5</value>
 			<value>Side6</value>
+			<value>Idle</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>

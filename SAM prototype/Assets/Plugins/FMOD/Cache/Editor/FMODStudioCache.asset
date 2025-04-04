@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: DiceRoll
   StudioPath: 
   Min: 0
-  Max: 5
+  Max: 6
   Default: 0
   ID:
     data1: 3097491101
@@ -29,6 +29,7 @@ MonoBehaviour:
   - Side4
   - Side5
   - Side6
+  - Idle
   Exists: 1
 --- !u!114 &-6441907191099926417
 MonoBehaviour:
@@ -72,7 +73,7 @@ MonoBehaviour:
   Name: DiceRoll
   StudioPath: parameter:/DiceRoll
   Min: 0
-  Max: 5
+  Max: 6
   Default: 0
   ID:
     data1: 3097491101
@@ -86,6 +87,7 @@ MonoBehaviour:
   - Side4
   - Side5
   - Side6
+  - Idle
   Exists: 1
 --- !u!114 &-2916989544205591356
 MonoBehaviour:
@@ -157,14 +159,74 @@ MonoBehaviour:
   - {fileID: -2072675272667339151}
   - {fileID: 8663712132709715571}
   - {fileID: 7823730893173964717}
+  - {fileID: 2349770909195046970}
   EditorParameters:
   - {fileID: -3372815438031551866}
   MasterBanks:
   - {fileID: 8185279201476922180}
   StringsBanks:
   - {fileID: 5535500205473153163}
-  cacheTime: 638793012340788669
+  cacheTime: 638793768296678624
   cacheVersion: 131623
+--- !u!114 &1616518315559906917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Roll (Event) Test/DiceRoll
+  m_EditorClassIdentifier: 
+  Name: DiceRoll
+  StudioPath: 
+  Min: 0
+  Max: 6
+  Default: 0
+  ID:
+    data1: 3097491101
+    data2: 1244768945
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Side1
+  - Side2
+  - Side3
+  - Side4
+  - Side5
+  - Side6
+  - Idle
+  Exists: 1
+--- !u!114 &2349770909195046970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Roll (Event) Test
+  m_EditorClassIdentifier: 
+  Path: event:/Roll (Event) Test
+  Guid:
+    Data1: 682376593
+    Data2: 1301833196
+    Data3: 1241560715
+    Data4: 2056417781
+  Banks:
+  - {fileID: 8008209916806194587}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1616518315559906917}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 68333
 --- !u!114 &4121515681705606338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,10 +269,10 @@ MonoBehaviour:
   Path: FMOD/Roll Music/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638792818520322830
+  lastModified: 638793768295787086
   FileSizes:
   - Name: Desktop
-    Value: 1134
+    Value: 1182
   Exists: 1
 --- !u!114 &7823730893173964717
 MonoBehaviour:
@@ -255,10 +317,10 @@ MonoBehaviour:
   Path: FMOD/Roll Music/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638793012340788669
+  lastModified: 638793768296678624
   FileSizes:
   - Name: Desktop
-    Value: 753504
+    Value: 757984
   Exists: 1
 --- !u!114 &8185279201476922180
 MonoBehaviour:
@@ -275,10 +337,10 @@ MonoBehaviour:
   Path: FMOD/Roll Music/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638792818520276860
+  lastModified: 638793768295731151
   FileSizes:
   - Name: Desktop
-    Value: 1274
+    Value: 1282
   Exists: 1
 --- !u!114 &8663712132709715571
 MonoBehaviour:

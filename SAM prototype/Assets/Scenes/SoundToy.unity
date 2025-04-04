@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 341254273}
   - component: {fileID: 341254274}
   - component: {fileID: 341254275}
+  - component: {fileID: 341254276}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -341,6 +342,22 @@ MonoBehaviour:
   Parameter: DiceRoll
   TriggerEvent: 3
   Value: 0
+--- !u!114 &341254276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341254272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Ground
+  Parameter: DiceRoll
+  TriggerEvent: 4
+  Value: 6
 --- !u!1 &408390189
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +369,7 @@ GameObject:
   - component: {fileID: 408390190}
   - component: {fileID: 408390191}
   - component: {fileID: 408390192}
+  - component: {fileID: 408390193}
   m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
@@ -411,6 +429,22 @@ MonoBehaviour:
   Parameter: DiceRoll
   TriggerEvent: 3
   Value: 1
+--- !u!114 &408390193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408390189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Ground
+  Parameter: DiceRoll
+  TriggerEvent: 4
+  Value: 6
 --- !u!1001 &617797439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -491,6 +525,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6871990578716197019, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1302884877}
+    - targetCorrespondingSourceObject: {fileID: 6871990578716197019, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1302884881}
   m_SourcePrefab: {fileID: 100100000, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd, type: 3}
 --- !u!1 &874644098
 GameObject:
@@ -556,6 +593,7 @@ GameObject:
   - component: {fileID: 891943560}
   - component: {fileID: 891943561}
   - component: {fileID: 891943562}
+  - component: {fileID: 891943563}
   m_Layer: 0
   m_Name: 5
   m_TagString: Untagged
@@ -615,6 +653,22 @@ MonoBehaviour:
   Parameter: DiceRoll
   TriggerEvent: 3
   Value: 4
+--- !u!114 &891943563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891943559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Ground
+  Parameter: DiceRoll
+  TriggerEvent: 4
+  Value: 6
 --- !u!1 &915039978
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,6 +827,7 @@ GameObject:
   - component: {fileID: 1135105109}
   - component: {fileID: 1135105110}
   - component: {fileID: 1135105111}
+  - component: {fileID: 1135105112}
   m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
@@ -832,6 +887,22 @@ MonoBehaviour:
   Parameter: DiceRoll
   TriggerEvent: 3
   Value: 3
+--- !u!114 &1135105112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135105108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Ground
+  Parameter: DiceRoll
+  TriggerEvent: 4
+  Value: 6
 --- !u!1 &1248578231
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,11 +982,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 793509360
-      Data2: 1198248457
-      Data3: 1333959351
-      Data4: 1043876507
-    Path: event:/Music/Roll (Event)
+      Data1: 682376593
+      Data2: 1301833196
+      Data3: 1241560715
+      Data4: 2056417781
+    Path: event:/Roll (Event) Test
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -938,6 +1009,7 @@ GameObject:
   - component: {fileID: 1257628058}
   - component: {fileID: 1257628059}
   - component: {fileID: 1257628060}
+  - component: {fileID: 1257628061}
   m_Layer: 0
   m_Name: 6
   m_TagString: Untagged
@@ -997,6 +1069,22 @@ MonoBehaviour:
   Parameter: DiceRoll
   TriggerEvent: 3
   Value: 5
+--- !u!114 &1257628061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257628057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Ground
+  Parameter: DiceRoll
+  TriggerEvent: 4
+  Value: 6
 --- !u!1 &1284172765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1313,37 @@ MonoBehaviour:
   maxRandomForceValue: 400
   startRollingForce: 400
   diceFaceNum: 0
+--- !u!114 &1302884881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302884867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -339339519
+      Data2: 1143551268
+      Data3: 96108978
+      Data4: 1606187298
+    Path: event:/Wall Bounce/Marimba Bounce
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1357208434
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,6 +1665,7 @@ GameObject:
   - component: {fileID: 2110477605}
   - component: {fileID: 2110477606}
   - component: {fileID: 2110477607}
+  - component: {fileID: 2110477608}
   m_Layer: 0
   m_Name: 3
   m_TagString: Untagged
@@ -1605,6 +1725,22 @@ MonoBehaviour:
   Parameter: DiceRoll
   TriggerEvent: 3
   Value: 2
+--- !u!114 &2110477608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110477604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Ground
+  Parameter: DiceRoll
+  TriggerEvent: 4
+  Value: 6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
